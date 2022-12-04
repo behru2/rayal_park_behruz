@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: 0.2s;
+};
+
+html {
+    scroll-behavior: smooth;
+  }
+
+  .button_submit{
+    position: relative;
+    width: 100px;
+    top: 200px;
+    margin-left: 100px;
+}
+
+.select_container{
+    position: relative;
+    margin-left: 190px ;
+    top: 90px;
+    height: 30px;
+    width: 130px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(53, 59, 62);  
+    border-radius: 2px;
+    border-color: black;
+    box-shadow: none
+};
+
+.select_prnt{
+    position: relative;
+    top: 50px;
+    margin-left: 1000px;
+}

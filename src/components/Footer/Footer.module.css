@@ -1,0 +1,283 @@
+.logo img {
+    
+position: absolute;
+width: 144px;
+height: 144px;
+left: 208px;
+top: 3700px;
+}
+
+.txt{
+    
+position: absolute;
+width: 122px;
+height: 36px;
+left: 272px;
+top: 3752px;
+
+/* Subheading / Base */
+
+font-family: 'Gelasio';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 150%;
+/* identical to box height, or 36px */
+
+
+color: #081F32;
+}
+
+.ttl1{
+    
+position: absolute;
+width: 257px;
+height: 54px;
+left: 226px;
+top: 3809px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 27px;
+/* or 27px */
+
+
+color: #081F32;
+
+opacity: 0.7;
+}
+
+.email{
+    position: absolute;
+width: 208px;
+height: 26px;
+left: 230px;
+top: 3915px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 160%;
+/* identical to box height, or 26px */
+
+letter-spacing: 0.06em;
+
+color: #081F32;
+
+opacity: 0.7;
+};
+
+
+.logo_prnt {
+
+    position: relative;
+/* padding-left: 3000px; */
+  left: 20px;
+     
+}
+
+
+
+.fcbk{
+  top: 3960px;
+  position: absolute;
+ left: 228px;
+ gap: 20px;
+}
+
+.insta{
+  top: 3960px;
+  position: absolute;
+ left: 278px;
+ gap: 40px;
+}
+
+.twtr{
+
+  top: 3960px;
+  position: absolute;
+ left: 328px;
+ gap: 60px;
+}
+
+.ggl{
+  top: 3960px;
+  position: absolute;
+ left: 378px;
+ gap: 80px;
+ }
+
+
+ .nav_title_b{
+  position: absolute;
+width: 60px;
+height: 30px;
+left: 564px;
+top: 3752px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 150%;
+/* identical to box height, or 30px */
+
+
+color: #081F32;
+ }
+
+ .nav_container_a{
+  
+position: absolute;
+width: 101px;
+height: 172px;
+left: 564px;
+top: 3822px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+list-style-type: none;
+
+display: flex;
+flex-direction: column;
+gap: 30px;
+/* identical to box height, or 24px */
+
+
+color: #081F32;
+
+opacity: 0.7;
+
+
+ }
+
+ .nav_title_с{
+  position: absolute;
+
+left: 741px;
+top: 3752px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 150%;
+/* identical to box height, or 30px */
+
+
+color: #081F32;
+ }
+
+ .nav_container_b{
+  
+position: absolute;
+width: 101px;
+height: 172px;
+left: 741px;
+top: 3822px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+list-style-type: none;
+
+display: flex;
+flex-direction: column;
+gap: 30px;
+/* identical to box height, or 24px */
+
+
+color: #081F32;
+
+opacity: 0.7;
+
+
+ }
+
+ .nav_title_d{
+position: absolute;
+
+left: 900px;
+top: 3752px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 150%;
+/* identical to box height, or 30px */
+
+
+color: #081F32;
+ }
+
+ .footer_input{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+/* identical to box height, or 24px */
+
+padding-left: 114px;
+
+color: #081F32;
+
+opacity: 0.5;
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+ }
+ 
+.input_prnt{
+  position: relative;
+  top: 52px;
+  height: 54px;
+  width: 485px;
+}
+
+.footer_input{
+  height: 54px;
+width: 491px;  
+padding-right: 245px;
+}
+
+.footer_input{
+  padding-left: 30px;
+}
+
+.input_btn{
+
+gap: 10px;
+
+position: relative;
+width: 164px;
+height: 54px;
+right: -327px;
+top: -10px;
+
+background: #1B75BB;
+border-radius: 5px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+color: white;
+line-height: 150%;
+/* identical to box height, or 24px */
+
+/* padding-left: 30px; */
+border-color: rgba(226, 226, 226, 0.4);
+
+
+
+
+
+};

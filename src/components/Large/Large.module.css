@@ -1,0 +1,986 @@
+.large_img {
+  height: 100vh;
+  width: 100vw;
+  background-color: black;
+  background-image: url(../img/b.svg);
+  background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
+  transition: ease-in-out;
+  animation: name;
+  animation-duration: 0.8s;
+  transition: 0.5s;
+}
+
+
+
+.text{
+  font-family: 'Playfair Display', serif;
+  font-size: 80px;
+  color: rgb(0, 0, 0);
+border-color: rgb(0, 0, 0);
+  position: relative;
+  left: 50px;
+top: 80px;
+  animation: name;
+  animation-duration: 0.8s;
+  transition: 0.5s;
+}
+
+.vidMom{
+  position: relative;
+  top: 908px;
+  left: 127px;
+  display: block;
+  height: 2000px;
+  z-index: 1;
+  width: 85%;
+}
+
+.vidMom iframe{
+  border-radius: 15px;
+}
+
+.imgIframe{
+  z-index: -1;
+  position: absolute;
+  top: -57px;
+  left: 57px;
+}
+.parent{
+  display: flexbox;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.title{
+
+  position: absolute;
+width: 192px;
+height: 30px;
+left: 912px;
+top: 971px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 19px;
+line-height: 150%;
+/* identical to box height, or 30px */
+
+letter-spacing: 0.1em;
+text-transform: uppercase;
+
+color: #1B75BB;
+
+opacity: 0.8;
+}
+
+.title2{
+  position: absolute;
+width: 430px;
+height: 90px;
+left: 908px;
+top: 1016px;
+
+/* Heading / Base */
+
+font-family: 'Gelasio';
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 140%;
+/* or 45px */
+
+
+color: #081F32;
+
+}
+
+.btn{
+  display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 20px 35px;
+gap: 10px;
+
+position: absolute;
+width: 137px;
+height: 56px;
+left: 912px;
+top: -850px;
+
+background: #1B75BB;
+border-radius: 5px;
+border: 0px;
+color: #FFFFFF;
+font-family: 'Roboto';
+font-style: normal;
+
+
+
+
+}
+
+.title3{
+  position: absolute;
+width: 295px;
+height: 45px;
+left: 652px;
+top: 1413px;
+
+/* Heading / Base */
+
+font-family: 'Gelasio';
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 140%;
+/* identical to box height, or 45px */
+
+
+color: #081F32;
+}
+
+.title4{
+  position: absolute;
+width: 819px;
+height: 58px;
+left: 390px;
+top: 1483px;
+
+/* Body / Base */
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 160%;
+/* or 29px */
+
+text-align: center;
+
+color: #7d97ac;
+
+
+}
+
+/* Card1 */
+
+.card{
+  
+
+position: absolute;
+width: 262px;
+height: 258px;
+left: 160px;
+top: 1601px;
+
+background: #FFFFFF;
+
+
+box-shadow: 0px 4px 30px rgba(199, 199, 199, 0.25);
+border-radius: 5px;
+}
+
+.photo1{
+  
+  position: absolute;
+  width: 74px;
+  height: 69.52px;
+  right: 25%;
+  top: 51px;
+  
+}
+
+.txt{
+  position: absolute;
+width: 149px;
+height: 36px;
+left: 86px;
+top: 160px;
+
+/* Subheading / Base */
+
+font-family: 'Gelasio';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 150%;
+/* identical to box height, or 36px */
+
+text-align: center;
+
+color: #081F32;
+}
+
+
+.txt2{
+  position: absolute;
+width: 228px;
+height: 58px;
+left: 45px;
+top: 210px;
+
+/* Body / Base */
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 100;
+font-size: 18px;
+line-height: 160%;
+/* or 29px */
+
+text-align: center;
+
+color: #081F32;
+
+opacity: 0.6;
+}
+
+/* Card2 */
+
+.card2{
+  
+
+  position: absolute;
+  width: 262px;
+  height: 258px;
+  left: 460px;
+  top: 1601px;
+  
+  background: #FFFFFF;
+  
+  
+  
+  border-radius: 5px;
+  }
+  
+  .photo2{   
+    position: absolute;
+    width: 74px;
+    height: 69.52px;
+    right: 25%;
+    top: 51px;
+    
+  }
+
+  
+
+  .txt_b{
+    position: absolute;
+  width: 249px;
+  height: 136px;
+  left: 60px;
+  top: 160px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  /* Subheading / Base */
+  
+  font-family: 'Gelasio';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 150%;
+  /* identical to box height, or 36px */
+  
+  text-align: center;
+  
+  color: #081F32;
+  }
+
+/* Card3 */
+
+  .card3{
+  
+
+    position: absolute;
+    width: 262px;
+    height: 258px;
+    left: 760px;
+    top: 1601px;
+    
+    background: #FFFFFF;
+    
+    
+    
+    border-radius: 5px;
+    }
+    
+    .photo3{   
+      position: absolute;
+      width: 74px;
+      height: 69.52px;
+      right: 25%;
+      top: 51px;
+      
+    }
+  
+    
+  
+    .txt_c{
+      position: absolute;
+    width: 249px;
+    height: 136px;
+    left: 80px;
+    top: 160px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    /* Subheading / Base */
+    
+    font-family: 'Gelasio';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 150%;
+    /* identical to box height, or 36px */
+    
+    text-align: center;
+    
+    color: #081F32;
+    }
+  
+    .txt3{
+      position: absolute;
+    width: 228px;
+    height: 58px;
+    left: 45px;
+    top: 210px;
+    
+    /* Body / Base */
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 18px;
+    line-height: 160%;
+    /* or 29px */
+    
+    text-align: center;
+    
+    color: #081F32;
+    
+    opacity: 0.6;
+    }
+  
+    /* Card4 */
+
+    .card4{
+  
+
+      position: absolute;
+      width: 262px;
+      height: 258px;
+      left: 1060px;
+      top: 1601px;
+      
+      background: #FFFFFF;
+      
+      
+      
+      border-radius: 5px;
+      }
+      
+      .photo4{   
+        position: absolute;
+        width: 74px;
+        height: 69.52px;
+        right: 25%;
+        top: 51px;
+        
+      }
+    
+      
+    
+      .txt_d{
+        position: absolute;
+      width: 249px;
+      height: 136px;
+      left: 50px;
+      top: 160px;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      /* Subheading / Base */
+      
+      font-family: 'Gelasio';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 24px;
+      line-height: 150%;
+      /* identical to box height, or 36px */
+      
+      text-align: center;
+      
+      color: #081F32;
+      }
+    
+      .txt4{
+        position: absolute;
+      width: 228px;
+      height: 58px;
+      left: 45px;
+      top: 210px;
+      
+      /* Body / Base */
+      
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 100;
+      font-size: 18px;
+      line-height: 160%;
+      /* or 29px */
+      
+      text-align: center;
+      
+      color: #081F32;
+      
+      opacity: 0.6;
+      };
+
+      .card_container{
+        left: 100px;
+      }
+
+      .glry_title{
+        position: absolute;
+width: 284px;
+height: 45px;
+left: 229px;
+top: 2046px;
+
+/* Heading / Base */
+
+font-family: 'Gelasio';
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 140%;
+/* identical to box height, or 45px */
+
+
+color: #081F32;
+      }
+
+      .glry_title2{
+        position: absolute;
+width: 439px;
+height: 87px;
+left: 229px;
+top: 2116px;
+
+/* Body / Base */
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 160%;
+/* or 29px */
+
+
+color: #081F32;
+
+opacity: 0.6;
+      }
+
+      .glry_btn{
+        display: flex;
+flex-direction: row;
+align-items: center;
+border: 0px;
+color: #FFFFFF;
+padding: 20px 35px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 200;
+font-size: 14px;
+
+position: absolute;
+width: 137px;
+height: 56px;
+left: 229px;
+top: 2233px;
+
+background: #1B75BB;
+border-radius: 5px;
+      }
+
+      .glry_card1{
+        position: absolute;
+width: 555px;
+height: 337px;
+left: 815px;
+top: 1999px;
+
+      }
+
+      .card_ttl1{
+
+        position: absolute;
+        width: 231px;
+        height: 126px;
+        left: 0px;
+        top: 211px;
+        
+        background: rgba(226, 226, 226, 0.4);
+        backdrop-filter: blur(10px);
+        /* Note: backdrop-filter has minimal browser support */
+        
+        border-radius: 10px;
+      }
+
+      .card_ttl1_desc{
+        position: absolute;
+width: 93px;
+height: 29px;
+left: 28px;
+top: 23px;
+
+font-family: 'Gelasio';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 160%;
+/* identical to box height, or 29px */
+
+
+color: #081F32;
+
+      }
+
+      .card_ttl1_price{
+        position: absolute;
+width: 57px;
+height: 29px;
+left: 146px;
+top: 26px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 13px;
+line-height: 160%;
+
+/* or 22px */
+
+
+color: #081F32;
+
+opacity: 0.8;
+      }
+
+      .ttl_btn{
+        display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 10px 20px;
+gap: 10px;
+
+position: absolute;
+width: 105px;
+height: 41px;
+left: 28px;
+top: 62px;
+
+background: #1B75BB;
+border-radius: 5px;
+border: 0px;
+color: white;
+font-family: 'Gelasio';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+      }
+
+      .glry_card2{
+       
+          position: absolute;
+  width: 555px;
+  height: 337px;
+  left: 815px;
+  top: 2366px;
+      }
+
+      .card_ttl2{
+
+        position: absolute;
+        width: 231px;
+        height: 126px;
+        left: 0px;
+        top: 211px;
+        
+        background: rgba(226, 226, 226, 0.4);
+        backdrop-filter: blur(10px);
+        /* Note: backdrop-filter has minimal browser support */
+        
+        border-radius: 10px;
+      }
+
+      .card_ttl2_desc{
+        position: absolute;
+
+left: 26px;
+top: 23px;
+
+font-family: 'Gelasio';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 200%;
+/* identical to box height, or 29px */
+
+
+color: #081F32;
+
+      }
+
+      .card_ttl2_price{
+        position: absolute;
+width: 57px;
+height: 29px;
+left: 146px;
+top: 30px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 13px;
+line-height: 160%;
+
+/* or 22px */
+
+
+color: #081F32;
+
+opacity: 0.8;
+      }
+
+      .ttl2_btn{
+        display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 10px 20px;
+gap: 10px;
+
+position: absolute;
+width: 105px;
+height: 41px;
+left: 28px;
+top: 62px;
+
+background: #1B75BB;
+border-radius: 5px;
+border: 0px;
+color: white;
+font-family: 'Gelasio';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+      }
+
+       /* Card3 */
+
+       .glry_card3{
+       
+        position: absolute;
+width: 555px;
+height: 337px;
+left: 220px;
+top: 2366px;
+    }
+
+    .card_ttl3{
+
+      position: absolute;
+      width: 231px;
+      height: 126px;
+      left: 0px;
+      top: 211px;
+      
+      background: rgba(226, 226, 226, 0.4);
+      backdrop-filter: blur(10px);
+      /* Note: backdrop-filter has minimal browser support */
+      
+      border-radius: 10px;
+    }
+
+    .card_ttl3_desc{
+      position: absolute;
+
+left: 21px;
+top: 24px;
+
+
+font-family: 'Gelasio';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 28.8px;
+/* identical to box height, or 29px */
+
+
+color: #081F32;
+
+    }
+
+    .card_ttl3_price{
+      position: absolute;
+width: 57px;
+height: 29px;
+left: 155px;
+top: 28px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 13px;
+line-height: 160%;
+
+/* or 22px */
+
+
+color: #081F32;
+
+opacity: 0.8;
+    }
+
+    .ttl3_btn{
+      display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 10px 20px;
+gap: 10px;
+
+position: absolute;
+width: 105px;
+height: 41px;
+left: 28px;
+top: 62px;
+
+background: #1B75BB;
+border-radius: 5px;
+border: 0px;
+color: white;
+font-family: 'Gelasio';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+    }
+
+/* Card4 */
+
+
+    .glry_card4{
+       
+      position: absolute;
+width: 555px;
+height: 337px;
+left: 220px;
+top: 2733px;
+  }
+
+  .card_ttl4{
+
+    position: absolute;
+    width: 231px;
+    height: 126px;
+    left: 0px;
+    top: 211px;
+    
+    background: rgba(226, 226, 226, 0.4);
+    backdrop-filter: blur(10px);
+    /* Note: backdrop-filter has minimal browser support */
+    
+    border-radius: 10px;
+  }
+
+  .card_ttl4_desc{
+    position: absolute;
+
+left: 21px;
+top: 24px;
+
+
+font-family: 'Gelasio';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 28.8px;
+/* identical to box height, or 29px */
+
+
+color: #081F32;
+
+  }
+
+  .card_ttl3_price{
+    position: absolute;
+width: 57px;
+height: 29px;
+left: 155px;
+top: 28px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 13px;
+line-height: 160%;
+
+/* or 22px */
+
+
+color: #081F32;
+
+opacity: 0.8;
+  }
+
+  .ttl3_btn{
+    display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 10px 20px;
+gap: 10px;
+
+position: absolute;
+width: 105px;
+height: 41px;
+left: 28px;
+top: 62px;
+
+background: #1B75BB;
+border-radius: 5px;
+border: 0px;
+color: white;
+font-family: 'Gelasio';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+  }
+
+  .glry_card5{        
+    position: absolute;
+    width: 555px;
+    height: 337px;
+    left: 815px;
+    top: 2733px;
+  }
+
+  .prefooter{
+    
+position: absolute;
+
+left: 716px;
+top: 3270px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 150%;
+/* identical to box height, or 30px */
+
+letter-spacing: 0.1em;
+text-transform: uppercase;
+
+color: #081F32;
+
+opacity: 0.8;
+  }
+
+  .prefooter_ttl{
+    position: absolute;
+    top: 3340px;
+ left: 330px;
+    
+width: 985px;
+height: 45px;
+
+
+
+
+color: #081F32;
+
+font-family: 'Gelasio';
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+  }
+
+  .mail1{
+    position: absolute;
+    top: 3468px;
+    left: 515px;
+  
+
+height: 54px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+ 
+/* identical to box height, or 24px */ 
+
+padding-left: 30px;
+border-color: rgba(226, 226, 226, 0.4);
+
+opacity: 0.7; 
+border-radius: 5px;     
+  
+width: 30%  ! important}
+
+  .submit{
+    position: absolute;
+    top: 3460px;
+    left: 866px;
+    background-color: #1B75BB;
+    
+    width: 164px;
+    height: 54px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+/* identical to box height, or 24px */
+
+text-align: center;
+
+color: #ffffff;
+
+border: 0px;
+border-radius: 5px;
+
+
+  };
+
+  .email{
+    position: absolute;
+    width: 215px;   
+    
+  }
+
+  .ttl_btn:hover{
+    cursor: pointer;
+  }
+
+  @media screen and (max-width: 1200px) {
+    .vidMom{
+      position: relative;
+      top: 1500px;
+    };
+
+    
+    
+  }
